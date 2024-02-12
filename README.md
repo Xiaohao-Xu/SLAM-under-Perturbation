@@ -39,42 +39,42 @@
 
   
 ## Visualizations of SLAM under Perturbation
-### Successful Cases :blush: on ORB-SLAM3 Model
+### :blush:  Successful Cases on ORB-SLAM3 Model
 <p align="center">
   <a href="">
     <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
   </a>
 </p>
 
-### Failure Cases on ORB-SLAM3 Model
+### :sos: Failure Cases on ORB-SLAM3 Model
 <p align="center">
   <a href="">
     <img src="./assets/0.gif" alt="Logo" width="100%">
   </a>
 </p>
 
-### Successful Cases on ORB-SLAM3 Model
+### :blush: Successful Cases on NICE-SLAM Model
 <p align="center">
   <a href="">
     <img src="./assets/0.gif" alt="Logo" width="100%">
   </a>
 </p>
 
-### Successful Cases on ORB-SLAM3 Model
+### :sos: Failure Cases on NICE-SLAM Model
 <p align="center">
   <a href="">
     <img src="./assets/0.gif" alt="Logo" width="100%">
   </a>
 </p>
 
-### Successful Cases on ORB-SLAM3 Model
+### :blush: Successful Cases on SplaTAM-S Model
 <p align="center">
   <a href="">
     <img src="./assets/0.gif" alt="Logo" width="100%">
   </a>
 </p>
 
-### Successful Cases on ORB-SLAM3 Model
+### :sos: Failure Cases on SplaTAM-S Model
 <p align="center">
   <a href="">
     <img src="./assets/0.gif" alt="Logo" width="100%">
