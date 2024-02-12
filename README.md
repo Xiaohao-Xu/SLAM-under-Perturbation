@@ -87,9 +87,10 @@ demonstrated accuracy in standard benchmarks.
 
 ## Future Directions
 - **Perturbation**: Evaluate the SLAM model’s robustness under mixed perturbations and more diverse perturbation types.
+- **Synthesis**: How to generate more realistic perturabtions and environments for more reliable SLAM simulation?
 - **SLAM Model**: Extend the robustness evaluation to SLAM models with more diverse input modality types, e.g., LiDAR and sonar.
-- **Beyond SLAM**: The evaluation can be easily extended to 3D reconstruction and other robotic navigation tasks.
 - **Robustness Enhancement**: Can you propose a more robust SLAM model that can survive more severe and diverse perturbations?
+- **Beyond SLAM**: The evaluation can be easily extended to 3D reconstruction and other robotic navigation tasks.
 - (Please refer to the paper for more details 😄)
 
 ## Citation
