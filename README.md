@@ -48,8 +48,7 @@
 - (**a**) Given the customizable robot system and global trajectory, (**b**) the local trajectory of each sensor can be generated via the physics engine. (**c**) Subsequently, the trajectory perturbation composer introduces deviations to simulate locomotion perturbations (**d**) Following this, the render combines sensor configurations, perturbed local trajectories, and 3D scene models to generate sensor streams. (**e**) Finally, the sensor perturbation composer introduces corruptions to the clean sensor streams, (**f**) resulting in perturbed data for SLAM robustness benchmarking
 
 ## Abstract
-- **Robustness** is a crucial factor for the successful deployment of robots in unstructured environments, particu-
-larly in the domain of Simultaneous Localization and Mapping (SLAM).
+- **Robustness** is a crucial factor for the successful deployment of robots in unstructured environments, particularly in the domain of Simultaneous Localization and Mapping (SLAM).
 - We **propose a novel, customizable pipeline for noisy data synthesis**, aimed at assessing the resilience of multi-modal SLAM models against various perturbations. 
 - We introduce **comprehensive perturbation taxonomy** along with a perturbation composition toolbox, allowing the
 transformation of clean simulations into challenging noisy environments.
