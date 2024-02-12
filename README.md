@@ -76,7 +76,7 @@
 
 ## Citation
 
-Please cite our paper if you find this repo useful! :yellow_heart: :blur_heart: :yellow_heart: :blur_heart:
+Please cite our paper if you find this repo useful! :yellow_heart: :blue_heart: :yellow_heart: :blue_heart:
 
 ```bibtex
 @inproceedings{xu2024customizable,
