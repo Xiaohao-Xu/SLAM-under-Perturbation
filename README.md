@@ -37,6 +37,13 @@
 
 ## Code Coming Soon: Stay Tuned for Update!  :fire: :fire: :fire:
 
+## Pipeline Overview
+<p align="center">
+  <a href="">
+    <img src="./assets/teaser.png" alt="Logo" width="100%">
+  </a>
+</p>
+
   
 ## Visualizations of SLAM under Perturbation
 ### :blush:  Successful Cases on ORB-SLAM3 Model
