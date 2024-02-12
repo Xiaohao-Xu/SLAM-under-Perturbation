@@ -74,4 +74,18 @@
   </a>
 </p>
 
+## Citation
 
+Please cite our paper if you find this repo useful! :yellow_heart: :blur_heart: :yellow_heart: :blur_heart:
+
+```bibtex
+@inproceedings{xu2024customizable,
+  title={Customizable Perturbation Synthesis for Robust SLAM Benchmarking},
+  author={Xu, Xiaohao and Zhang, Tianyi and Wang, Sibo and Li, Xiang and Chen, Yongqi and Li, Ye and Raj, Bhiksha and Johnson-Roberson, Matthew and Huang, Xiaonan},
+  booktitle={ArXiv},
+  year={2024}
+}
+```
+
+## Contact
+If you have any question about this project, please feel free to contact xiaohaox@umich.edu
