@@ -4,7 +4,7 @@
 
   <h1 align="center">Customizable Perturbation Synthesis for Robust SLAM Benchmarking</h1>
   <p align="center">
-    <a href="=https://scholar.google.com/citations?user=3Ifn2DoAAAAJ&hl=en"><strong>Xiaohao Xu</strong></a>
+    <a href="https://scholar.google.com/citations?user=3Ifn2DoAAAAJ&hl=en"><strong>Xiaohao Xu</strong></a>
     ·
     <a href="https://scholar.google.com/citations?user=n11gQKoAAAAJ&hl=en"><strong>Tianyi Zhang*</strong></a>
     ·
