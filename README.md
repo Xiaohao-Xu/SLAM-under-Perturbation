@@ -42,7 +42,7 @@
 ### Successful Cases on ORB-SLAM3 Model
 <p align="center">
   <a href="">
-    <img src="./assets/0.gif" alt="Logo" width="100%">
+    <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
   </a>
 </p>
 
