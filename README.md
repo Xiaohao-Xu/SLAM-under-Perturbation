@@ -33,18 +33,17 @@
   <div align="center"></div>
 </p>
 
+<br>
+
+## Code Coming Soon: Stay Tuned for Update!  
+
+  
+## Visualizations of SLAM under Perturbation
 <p align="center">
   <a href="">
     <img src="./assets/0.gif" alt="Logo" width="100%">
   </a>
 </p>
-
-<br>
-
-## Code Coming Soon: Stay Tuned for Update!  
-
-## Visualizations of SLAM under Perturbation
-
 
 
 
