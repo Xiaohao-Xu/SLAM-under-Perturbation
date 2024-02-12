@@ -49,37 +49,22 @@
 ### :sos: Failure Cases on ORB-SLAM3 Model
 <p align="center">
   <a href="">
-    <img src="./assets/0.gif" alt="Logo" width="100%">
-  </a>
-</p>
-
-### :blush: Successful Cases on NICE-SLAM Model
-<p align="center">
-  <a href="">
-    <img src="./assets/0.gif" alt="Logo" width="100%">
-  </a>
-</p>
-
-### :sos: Failure Cases on NICE-SLAM Model
-<p align="center">
-  <a href="">
-    <img src="./assets/0.gif" alt="Logo" width="100%">
+    <img src="./assets/fail-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
   </a>
 </p>
 
 ### :blush: Successful Cases on SplaTAM-S Model
 <p align="center">
   <a href="">
-    <img src="./assets/0.gif" alt="Logo" width="100%">
+    <img src="./assets/splatam-s-success-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
   </a>
 </p>
 
 ### :sos: Failure Cases on SplaTAM-S Model
 <p align="center">
   <a href="">
-    <img src="./assets/0.gif" alt="Logo" width="100%">
+    <img src="./assets/splatam-s-failure-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
   </a>
 </p>
-
 
 
