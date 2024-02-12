@@ -23,11 +23,11 @@
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=MNKU_WcAAAAJ&view_op=list_works"><strong>Xiaonan Huang</strong></a>
   </p>
     <p align="center">
-    <a href="https://robotics.umich.edu/"><strong>UMich Robotics</strong></a>
+    UMich Robotics
     ·
-    <a href="https://www.ri.cmu.edu/"><strong>CMU Robotics</strong></a>
+    CMU Robotics
     ·
-    <a href="https://www.ece.cmu.edu/"><strong>CMU ECE</strong></a>
+    CMU ECE
   </p>
   <h3 align="center"><a href="">Paper</a> | <a href="">Video</a> | <a href="">Project Page</a></h3>
   <div align="center"></div>
