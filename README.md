@@ -44,6 +44,12 @@
   </a>
 </p>
 
+- **Overview of the noisy data synthesis pipeline for SLAM evaluation under perturbation**.
+- (a) Given the customizable robot system and global trajectory, (b) the local trajectory of each sensor can be generated via the physics engine.
+- (c) Subsequently, the trajectory perturbation composer introduces deviations to simulate locomotion perturbations.
+- (d) Following this, the render combines sensor configurations, perturbed local trajectories, and 3D scene models to generate sensor streams.
+- (e) Finally, the sensor perturbation composer introduces corruptions to the clean sensor streams, (f) resulting in perturbed data
+for SLAM robustness benchmarking
   
 ## Visualizations of SLAM under Perturbation
 ### :blush:  Successful Cases on ORB-SLAM3 Model
