@@ -46,7 +46,19 @@
 
 - **Noisy data synthesis pipeline for SLAM evaluation under perturbation**.
 - (**a**) Given the customizable robot system and global trajectory, (**b**) the local trajectory of each sensor can be generated via the physics engine. (**c**) Subsequently, the trajectory perturbation composer introduces deviations to simulate locomotion perturbations (**d**) Following this, the render combines sensor configurations, perturbed local trajectories, and 3D scene models to generate sensor streams. (**e**) Finally, the sensor perturbation composer introduces corruptions to the clean sensor streams, (**f**) resulting in perturbed data for SLAM robustness benchmarking
-  
+
+## Abstract
+- **Robustness** is a crucial factor for the successful deployment of robots in unstructured environments, particu-
+larly in the domain of Simultaneous Localization and Mapping (SLAM). Simulation-based benchmarks have emerged as
+a highly scalable approach for robustness evaluation compared to real-world data collection. However, **crafting a challenging
+and controllable noisy world with diverse perturbations remains relatively under-explored**. 
+- To this end, we **propose a novel, customizable pipeline for noisy data synthesis, aimed at assessing the resilience of multi-modal SLAM models against various perturbations.** This pipeline incorporates customizable hardware setups, software components, and perturbed environments.
+- In particular, we introduce **comprehensive perturbation taxonomy** along with a perturbation composition toolbox, **allowing the
+transformation of clean simulations into challenging noisy environments**.
+- Utilizing the pipeline, we instantiate the **Robust-SLAM benchmark**, which includes diverse perturbation types, to **evaluate the risk tolerance of existing advanced multi-modal SLAM models**.
+- Our extensive analysis **uncovers the susceptibilities of existing SLAM models** to real-world disturbance, despite their
+demonstrated accuracy in standard benchmarks.
+
 ## Visualizations of SLAM under Perturbation
 ### :blush:  Successful Cases on ORB-SLAM3 Model
 <p align="center">
