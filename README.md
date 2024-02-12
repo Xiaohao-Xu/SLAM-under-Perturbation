@@ -39,7 +39,7 @@
 
   
 ## Visualizations of SLAM under Perturbation
-### Successful Cases on ORB-SLAM3 Model
+### Successful Cases :blush: on ORB-SLAM3 Model
 <p align="center">
   <a href="">
     <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
