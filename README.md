@@ -37,6 +37,10 @@
 
 ## Code Coming Soon: Stay Tuned for Update!  :fire: :fire: :fire:
 
+- Generative models, such as **Sora**, can simulate very **COOL** videos but **fail** to capture the **physics and dynamics of our Real World**.
+  
+- We highlight the uniqueness and merits of physics-aware **Noisy World** simulators, and propose a **customizable perturbation synthesis** pipeline that can transform a **Clean World** to a **Noisy World** in a controllable manner.
+
 ## Pipeline Overview
 <p align="center">
   <a href="">
