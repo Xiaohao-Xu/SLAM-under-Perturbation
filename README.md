@@ -102,10 +102,10 @@ demonstrated accuracy in standard benchmarks.
 Please cite our paper if you find this repo useful! :yellow_heart: :blue_heart: :yellow_heart: :blue_heart:
 
 ```bibtex
-@inproceedings{xu2024customizable,
+@article{xu2024customizable,
   title={Customizable Perturbation Synthesis for Robust SLAM Benchmarking},
   author={Xu, Xiaohao and Zhang, Tianyi and Wang, Sibo and Li, Xiang and Chen, Yongqi and Li, Ye and Raj, Bhiksha and Johnson-Roberson, Matthew and Huang, Xiaonan},
-  booktitle={ArXiv},
+  journal={arXiv preprint arXiv:2402.08125},
   year={2024}
 }
 ```
