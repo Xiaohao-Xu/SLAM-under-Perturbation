@@ -112,3 +112,6 @@ Please cite our paper if you find this repo useful! :yellow_heart: :blue_heart: 
 
 ## Contact
 If you have any question about this project, please feel free to contact xiaohaox@umich.edu
+
+## License
+The benchmark and code are under the CC BY 4.0 International license.
