@@ -6,9 +6,9 @@
   <p align="center">
     <a href="https://scholar.google.com/citations?user=3Ifn2DoAAAAJ&hl=en"><strong>Xiaohao Xu</strong></a>
     ·
-    <a href="https://scholar.google.com/citations?user=n11gQKoAAAAJ&hl=en"><strong>Tianyi Zhang*</strong></a>
+    <a href="https://scholar.google.com/citations?user=n11gQKoAAAAJ&hl=en"><strong>Tianyi Zhang</strong></a>
     ·
-    <a href=""><strong>Sibo Wang*</strong></a>
+    <a href=""><strong>Sibo Wang</strong></a>
     ·
     <a href="https://lxa9867.github.io/"><strong>Xiang Li</strong></a>
     ·
@@ -35,7 +35,7 @@
 
 <br>
 
-## Code Coming Soon: Stay Tuned for Update!  :fire: :fire: :fire:
+## Our Benchmarking Code is Released! See [Instruction](./benchmark/Instructions.md)  :fire: :fire: :fire:
 
 - Generative models, such as **Sora**, can simulate very **COOL** videos but **fail** to capture the **physics and dynamics of our Real World**.
   
@@ -89,13 +89,14 @@ demonstrated accuracy in standard benchmarks.
   </a>
 </p>
 
-## Future Directions
+## More Directions to Explore
 - **Perturbation**: Evaluate the SLAM model’s robustness under mixed perturbations and more diverse perturbation types.
 - **Synthesis**: How to generate more realistic perturabtions and environments for more reliable SLAM simulation?
 - **SLAM Model**: Extend the robustness evaluation to SLAM models with more diverse input modality types, e.g., LiDAR and sonar.
 - **Robustness Enhancement**: Can you propose a more robust SLAM model that can survive more severe and diverse perturbations?
 - **Beyond SLAM**: The evaluation can be easily extended to 3D reconstruction and other robotic navigation tasks.
 - (Please refer to the paper for more details 😄)
+- **Let's embrace more robust and deployable SLAM models!!**
 
 ## Citation
 
@@ -113,5 +114,13 @@ Please cite our paper if you find this repo useful! :yellow_heart: :blue_heart: 
 ## Contact
 If you have any question about this project, please feel free to contact xiaohaox@umich.edu
 
+## Credit  
+- SLAM Models :yellow_heart: : The authors would like to thank the following awesome open-sourced repos of SLAM models: [Co-SLAM](https://github.com/HengyiWang/Co-SLAM), [ORB-SLAM3](), [Nice-SLAM](https://github.com/cvg/nice-slam), [GO-SLAM](https://github.com/youmi-zym/GO-SLAM), and [SplaTAM](https://github.com/spla-tam/SplaTAM).
+- 3D Dataset :blue_heart: : The authors would like to thank the following awesome open-sourced repos of dataset: [Replica](https://github.com/facebookresearch/Replica-Dataset)
+
 ## License
-The benchmark and code are under the CC BY 4.0 International license.
+The code is under the CC BY 4.0 International license.
+
+
+   
+

@@ -1,0 +1,9 @@
+inherit_from: configs/Replica/replica.yaml
+mode: rgbd
+mapping:
+  bound: [[-5.0, 5.0], [-5.0, 5.0], [-5.0, 5.0]]
+meshing:
+  gt_mesh_path: Datasets/Replica/cull_replica_meshv2/room1.ply
+data:
+  input_folder: Datasets/Replica/room1
+  output: output/Replica/room1/rgbd

@@ -1,0 +1,33 @@
+inherit_from: configs/Synthetic/synthetic.yaml
+mapping:
+  bound: [[-2.4, 2.],[-0.6, 2.9],[-1.8, 3.1]]
+  marching_cubes_bound: [[-2.4, 2.],[-0.6, 2.9],[-1.8, 3.1]]
+  sample: 2048
+  first_mesh: True
+  iters: 10
+  cur_frame_iters: 0
+  lr_embed: 0.001
+  lr_decoder: 0.01
+  lr_rot: 0.001
+  lr_trans: 0.001
+  keyframe_every: 1
+  map_every: 1
+  n_pixels: 0.05
+  first_iters: 200
+  optim_cur: True
+  min_pixels_cur: 100
+  map_accum_step: 1
+  pose_accum_step: 5
+  map_wait_step: 0
+  filter_depth: False
+  
+
+data:
+  datadir: data/neural_rgbd_data/breakfast_room
+  trainskip: 1
+  output: output/Synthetic/br_map_every_iter10
+  exp_name: demo
+
+cam:
+  near: 0
+  far: 5
