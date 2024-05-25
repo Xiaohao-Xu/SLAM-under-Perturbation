@@ -114,12 +114,40 @@ Please cite our paper if you find this repo useful! :yellow_heart: :blue_heart: 
 ## Contact
 If you have any question about this project, please feel free to contact xiaohaox@umich.edu
 
+## Public Resources Used
+We gratefully acknowledge the use of the following public resources in this work:
+
+- **[Classification-Robustness](https://github.com/hendrycks/robustness)**  
+  Apache License 2.0
+
+- **[Replica](https://github.com/facebookresearch/Replica-Dataset)**  
+  [Research-only License](https://github.com/facebookresearch/Replica-Dataset?tab=License-1-ov-file#readme)
+
+- **[Nice-SLAM](https://github.com/cvg/nice-slam)**  
+  Apache License 2.0
+
+- **[Co-SLAM](https://github.com/HengyiWang/Co-SLAM)**  
+  Apache License 2.0
+
+- **[SplaTAM](https://github.com/spla-tam/SplaTAM)**  
+  BSD 3-Clause "New" or "Revised" License
+
+- **[GO-SLAM](https://github.com/youmi-zym/GO-SLAM)**  
+  Apache License 2.0
+
+- **[ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)**  
+  GNU General Public License v3.0
+
+
+<!--
 ## Credit  
 - SLAM Models :yellow_heart: : The authors would like to thank the following awesome open-sourced repos of SLAM models: [Co-SLAM](https://github.com/HengyiWang/Co-SLAM), [ORB-SLAM3](), [Nice-SLAM](https://github.com/cvg/nice-slam), [GO-SLAM](https://github.com/youmi-zym/GO-SLAM), and [SplaTAM](https://github.com/spla-tam/SplaTAM).
 - 3D Dataset :blue_heart: : The authors would like to thank the following awesome open-sourced repos of dataset: [Replica](https://github.com/facebookresearch/Replica-Dataset)
+-->
+
 
 ## License
-The code is under the CC BY 4.0 International license.
+Our code is released under Apache License 2.0. see [LICENSE](LICENSE).
 
 
    
