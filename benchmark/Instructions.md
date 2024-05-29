@@ -1,4 +1,4 @@
-# Benchmarking SLAM Robustness under Perturbations
+# Noisy-Replica Benchmark: Benchmarking SLAM Robustness under Perturbations
 
 ## General Notice and Instructions
 - Modify the input/output/dataset paths in the provided shell scripts to match your system's configuration.
