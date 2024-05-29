@@ -56,7 +56,7 @@
 - We **propose a novel, customizable pipeline for noisy data synthesis**, aimed at assessing the resilience of multi-modal SLAM models against various perturbations. 
 - We introduce **comprehensive perturbation taxonomy** along with a perturbation composition toolbox, allowing the
 transformation of clean simulations into challenging noisy environments.
-- Utilizing the pipeline, we instantiate the **Robust-SLAM benchmark**, which includes diverse perturbation types, to evaluate the risk tolerance of existing advanced multi-modal SLAM models.
+- Utilizing the pipeline, we instantiate the **Noisy-Replica benchmark**, which includes diverse perturbation types, to evaluate the risk tolerance of existing advanced multi-modal SLAM models.
 - Our extensive analysis **uncovers the susceptibilities of existing SLAM models** to real-world disturbance, despite their
 demonstrated accuracy in standard benchmarks.
 
