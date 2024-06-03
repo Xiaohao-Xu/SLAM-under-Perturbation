@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <h1 align="center">From Perfect to Noisy World: Customizable RGBD Perturbations for SLAM Robustness Benchmarking</h1>
+  <h1 align="center">Customizable Embodied Multi-modal Perturbations for SLAM Robustness Benchmarking</h1>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=3Ifn2DoAAAAJ&hl=en"><strong>Xiaohao Xu</strong></a>
     ·
