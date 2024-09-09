@@ -1027,7 +1027,7 @@ if __name__ == "__main__":
         print("#experiment.config['data']['basedir'] ",experiment.config['data']['basedir'] )
         experiment.config['data']['sequence'] = args.input_folder.split(os.sep)[-1]
     experiment.config['seed']=args.seed
-    experiment.config['scene_name']=args.scene_name
+    experiment.config['data']['sequence']=args.scene_name
     experiment.config['perturb_type']=args.perturb_type
     experiment.config['perturb_severity']=args.perturb_severity
     experiment.config['perturb_dynamic']=args.perturb_dynamic
@@ -1041,7 +1041,7 @@ if __name__ == "__main__":
     # Set Experiment Seed
 
     print("experiment.config",experiment.config)
-    #print(NEED_SANITY_TEST_OF_TRAJ_PERTURB)
+
     seed_everything(seed=experiment.config['seed'])
     
     # Create Results Directory and Copy Config
