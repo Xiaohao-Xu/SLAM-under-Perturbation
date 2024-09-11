@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <h1 align="center">Customizable Embodied Multi-modal Perturbations for SLAM Robustness Benchmarking</h1>
+  <h1 align="center">Customizable Perturbations for RGB-D SLAM Robustness Evaluation</h1>
     <p align="center">
     <strong>UMich Robotics</strong>
     ·
@@ -37,24 +37,11 @@
 - We **propose a novel, customizable pipeline for noisy data synthesis**, aimed at assessing the resilience of multi-modal SLAM models against various perturbations. 
 - We introduce **comprehensive perturbation taxonomy** along with a perturbation composition toolbox, allowing the
 transformation of clean simulations into challenging noisy environments.
-- Utilizing the pipeline, we instantiate the **Noisy-Replica benchmark**, which includes diverse perturbation types, to evaluate the risk tolerance of existing advanced multi-modal SLAM models.
-- Our extensive analysis **uncovers the susceptibilities of existing SLAM models** to real-world disturbance, despite their
+- Utilizing the pipeline, we instantiate a benchmark with diverse perturbation types, to evaluate the risk tolerance of top-performing RGB-D SLAM models.
+- Our extensive analysis **uncovers the model-specific susceptibilities of existing SLAM models** to real-world disturbance, despite their
 demonstrated accuracy in standard benchmarks.
 
-## Visualizations of SLAM under Perturbation
-### :blush:  Successful Cases on ORB-SLAM3 Model
-<p align="center">
-  <a href="">
-    <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
-  </a>
-</p>
-
-### :sos: Failure Cases on ORB-SLAM3 Model
-<p align="center">
-  <a href="">
-    <img src="./assets/fail-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
-  </a>
-</p>
+## Visualizations of RGB-D SLAM Models under Perturbation
 
 ### :blush: Successful Cases on SplaTAM-S Model
 <p align="center">
@@ -70,6 +57,21 @@ demonstrated accuracy in standard benchmarks.
   </a>
 </p>
 
+### :blush:  Successful Cases on ORB-SLAM3 Model
+<p align="center">
+  <a href="">
+    <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
+  </a>
+</p>
+
+### :sos: Failure Cases on ORB-SLAM3 Model
+<p align="center">
+  <a href="">
+    <img src="./assets/fail-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
+  </a>
+</p>
+
+
 ## More Directions to Explore
 - **Perturbation**: Evaluate the SLAM model’s robustness under mixed perturbations and more diverse perturbation types.
 - **Synthesis**: How to generate more realistic perturabtions and environments for more reliable SLAM simulation?
@@ -79,18 +81,6 @@ demonstrated accuracy in standard benchmarks.
 - (Please refer to the paper for more details 😄)
 - **Let's embrace more robust and deployable SLAM models!!**
 
-## Citation
-
-Please cite our paper if you find this repo useful! :yellow_heart: :blue_heart: :yellow_heart: :blue_heart:
-
-```bibtex
-@article{xu2024customizable,
-  title={Customizable Perturbation Synthesis for Robust SLAM Benchmarking},
-  author={Xu, Xiaohao and Zhang, Tianyi and Wang, Sibo and Li, Xiang and Chen, Yongqi and Li, Ye and Raj, Bhiksha and Johnson-Roberson, Matthew and Huang, Xiaonan},
-  journal={arXiv preprint arXiv:2402.08125}, 
-  year={2024}
-}
-```
 
 ## Contact
 If you have any question about this project, please feel free to contact xiaohaox@umich.edu
