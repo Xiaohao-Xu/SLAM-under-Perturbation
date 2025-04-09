@@ -1,125 +1,128 @@
-<!-- PROJECT LOGO -->
+# 🚀 Customizable Perturbations for RGB-D SLAM Robustness Evaluation
 
 <p align="center">
-
-  <h1 align="center">Customizable Perturbations for RGB-D SLAM Robustness Evaluation</h1>
-    <p align="center">
-    <strong>UMich Robotics</strong>
-    ·
-    <strong>CMU Robotics</strong>
-    ·
-    <strong>CMU ECE</strong>
-  </p>
-  <h3 align="center"><a href="https://arxiv.org/pdf/2406.16850">Preprint Paper</a> | <a href="https://youtu.be/jNM94naSPXA">Video Demo</a></h3>
-  <div align="center"></div>
+  <strong>University of Michigan Robotics</strong> ·
+  <strong>CMU Robotics</strong> ·
+  <strong>CMU ECE</strong>
 </p>
 
-<br>
-
-## Our Benchmarking Code is Released! See [Instruction](./benchmark/Instructions.md)  :fire: :fire: :fire:
-
-- Generative models, such as **Sora**, can simulate very **COOL** videos but **fail** to capture the **physics and dynamics of our Real World**.
-  
-- We highlight the uniqueness and merits of physics-aware **Noisy World** simulators, and propose a **customizable perturbation synthesis** pipeline that can transform a **Clean World** to a **Noisy World** in a controllable manner.
-
-## Pipeline Overview
 <p align="center">
-  <a href="">
-    <img src="./assets/teaser.png" alt="Logo" width="100%">
-  </a>
+  <a href="https://arxiv.org/pdf/2406.16850"><strong>📄 Preprint</strong></a> |
+  <a href="https://youtu.be/jNM94naSPXA"><strong>🎥 Video Demo</strong></a>
 </p>
 
-- **Noisy data synthesis pipeline for SLAM evaluation under perturbation**.
-- (**a**) Given the customizable robot system and global trajectory, (**b**) the local trajectory of each sensor can be generated via the physics engine. (**c**) Subsequently, the trajectory perturbation composer introduces deviations to simulate locomotion perturbations (**d**) Following this, the render combines sensor configurations, perturbed local trajectories, and 3D scene models to generate sensor streams. (**e**) Finally, the sensor perturbation composer introduces corruptions to the clean sensor streams, (**f**) resulting in perturbed data for SLAM robustness benchmarking
+---
 
-## Abstract
-- **Robustness** is a crucial factor for the successful deployment of robots in unstructured environments, particularly in the domain of Simultaneous Localization and Mapping (SLAM).
-- We **propose a novel, customizable pipeline for noisy data synthesis**, aimed at assessing the resilience of multi-modal SLAM models against various perturbations. 
-- We introduce **comprehensive perturbation taxonomy** along with a perturbation composition toolbox, allowing the
-transformation of clean simulations into challenging noisy environments.
-- Utilizing the pipeline, we instantiate a benchmark with diverse perturbation types, to evaluate the risk tolerance of top-performing RGB-D SLAM models.
-- Our extensive analysis **uncovers the model-specific susceptibilities of existing SLAM models** to real-world disturbance, despite their
-demonstrated accuracy in standard benchmarks.
+## 🔧 Benchmarking Code Released!
 
-## Visualizations of RGB-D SLAM Models under Perturbation
+> Check out the full instructions [here](./benchmark/Instructions.md) 🚀🔥
 
-### :blush: Successful Cases on SplaTAM-S Model
+Modern generative models like **Sora** produce stunning videos — but they often fall short in simulating the **physics and dynamics of the real world**.  
+This project highlights the strengths of physics-aware simulation via a **customizable perturbation synthesis pipeline**, enabling transformation from a *Clean World* to a *Noisy World* in a structured and controllable way.
+
+---
+
+## 🧩 Pipeline Overview
+
 <p align="center">
-  <a href="">
-    <img src="./assets/splatam-s-success-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
-  </a>
+  <img src="./assets/teaser.png" alt="Pipeline Overview" width="100%">
 </p>
 
-### :sos: Failure Cases on SplaTAM-S Model
+Our pipeline synthesizes **noisy RGB-D data** for evaluating SLAM robustness under real-world perturbations:
+
+1. **Robot System & Trajectory Input** → Global trajectory & system parameters.
+2. **Local Trajectory Generator** → Physics engine simulates each sensor's motion.
+3. **Trajectory Perturbation Composer** → Injects motion deviations.
+4. **Rendering Engine** → Combines 3D scenes and perturbed sensor paths to produce clean sensor streams.
+5. **Sensor Perturbation Composer** → Adds realistic corruptions to RGB-D streams.
+6. **Output** → Fully perturbed datasets for robust SLAM benchmarking.
+
+---
+
+## 📌 Abstract
+
+Robust SLAM is essential for real-world robot deployment. In this work:
+
+- We introduce a **modular pipeline** to synthesize perturbations and evaluate SLAM robustness.
+- A rich **perturbation taxonomy** and toolbox enable transformation from ideal simulations to challenging environments.
+- We benchmark several top-performing **RGB-D SLAM models** under diverse, composed perturbations.
+- Our analysis reveals **model-specific vulnerabilities**, often hidden under standard benchmark results.
+
+---
+
+## 🎞️ Visualizations
+
+### ✅ SplaTAM-S: Success Case
 <p align="center">
-  <a href="">
-    <img src="./assets/splatam-s-failure-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
-  </a>
+  <img src="./assets/splatam-s-success-ezgif.com-video-to-gif-converter.gif" alt="SplaTAM-S Success" width="100%">
 </p>
 
-### :blush:  Successful Cases on ORB-SLAM3 Model
+### ❌ SplaTAM-S: Failure Case
 <p align="center">
-  <a href="">
-    <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
-  </a>
+  <img src="./assets/splatam-s-failure-ezgif.com-video-to-gif-converter.gif" alt="SplaTAM-S Failure" width="100%">
 </p>
 
-### :sos: Failure Cases on ORB-SLAM3 Model
+### ✅ ORB-SLAM3: Success Case
 <p align="center">
-  <a href="">
-    <img src="./assets/fail-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="Logo" width="100%">
-  </a>
+  <img src="./assets/success-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="ORB-SLAM3 Success" width="100%">
 </p>
 
+### ❌ ORB-SLAM3: Failure Case
+<p align="center">
+  <img src="./assets/fail-orbslam3-ezgif.com-video-to-gif-converter.gif" alt="ORB-SLAM3 Failure" width="100%">
+</p>
 
-## More Directions to Explore
-- **Perturbation**: Evaluate the SLAM model’s robustness under mixed perturbations and more diverse perturbation types.
-- **Synthesis**: How to generate more realistic perturabtions and environments for more reliable SLAM simulation?
-- **SLAM Model**: Extend the robustness evaluation to SLAM models with more diverse input modality types, e.g., LiDAR and sonar.
-- **Robustness Enhancement**: Can you propose a more robust SLAM model that can survive more severe and diverse perturbations?
-- **Beyond SLAM**: The evaluation can be easily extended to 3D reconstruction and other robotic navigation tasks.
-- (Please refer to the paper for more details 😄)
-- **Let's embrace more robust and deployable SLAM models!!**
+---
 
+## 🌱 Research Directions
 
-## Contact
-If you have any question about this project, please feel free to contact xiaohaox@umich.edu
+- **Perturbation Types**: Evaluate under mixed or novel perturbations.
+- **Realism**: Enhance the fidelity of simulated environments and distortions.
+- **Modalities**: Extend beyond RGB-D — include LiDAR, sonar, etc.
+- **Model Development**: Design more robust SLAM architectures.
+- **Broader Applications**: Apply the evaluation to 3D reconstruction or navigation.
 
-## Public Resources Used
-We gratefully acknowledge the use of the following public resources in this work:
+📌 *See our paper for more details!*
 
-- **[Classification-Robustness](https://github.com/hendrycks/robustness)**  
-  Apache License 2.0
+---
 
-- **[Replica](https://github.com/facebookresearch/Replica-Dataset)**  
-  [Research-only License](https://github.com/facebookresearch/Replica-Dataset?tab=License-1-ov-file#readme)
+## 📖 Citation
 
-- **[Nice-SLAM](https://github.com/cvg/nice-slam)**  
-  Apache License 2.0
+If you find **Biblex** helpful, please cite us:
 
-- **[Co-SLAM](https://github.com/HengyiWang/Co-SLAM)**  
-  Apache License 2.0
+```bibtex
+@inproceedings{xu2025scalable,
+  title     = {Scalable Benchmarking and Robust Learning for Noise-Free Ego-Motion and 3D Reconstruction from Noisy Video},
+  author    = {Xiaohao Xu and Tianyi Zhang and Shibo Zhao and Xiang Li and Sibo Wang and Yongqi Chen and Ye Li and Bhiksha Raj and Matthew Johnson-Roberson and Sebastian Scherer and Xiaonan Huang},
+  booktitle = {The Thirteenth International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  url       = {https://openreview.net/forum?id=Pz9zFea4MQ}
+}
+```
 
-- **[SplaTAM](https://github.com/spla-tam/SplaTAM)**  
-  BSD 3-Clause "New" or "Revised" License
+---
 
-- **[GO-SLAM](https://github.com/youmi-zym/GO-SLAM)**  
-  Apache License 2.0
+## 📫 Contact
 
-- **[ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)**  
-  GNU General Public License v3.0
+Got questions? Reach out to: [xiaohaox@umich.edu](mailto:xiaohaox@umich.edu)
 
+---
 
-<!--
-## Credit  
-- SLAM Models :yellow_heart: : The authors would like to thank the following awesome open-sourced repos of SLAM models: [Co-SLAM](https://github.com/HengyiWang/Co-SLAM), [ORB-SLAM3](), [Nice-SLAM](https://github.com/cvg/nice-slam), [GO-SLAM](https://github.com/youmi-zym/GO-SLAM), and [SplaTAM](https://github.com/spla-tam/SplaTAM).
-- 3D Dataset :blue_heart: : The authors would like to thank the following awesome open-sourced repos of dataset: [Replica](https://github.com/facebookresearch/Replica-Dataset)
--->
+## 📚 Public Resources Used
 
+We gratefully acknowledge the following open-source projects:
 
-## License
-Our code is released under Apache License 2.0. see [LICENSE](LICENSE).
+- [Classification-Robustness](https://github.com/hendrycks/robustness) · Apache 2.0  
+- [Replica Dataset](https://github.com/facebookresearch/Replica-Dataset) · Research-only License  
+- [Nice-SLAM](https://github.com/cvg/nice-slam) · Apache 2.0  
+- [Co-SLAM](https://github.com/HengyiWang/Co-SLAM) · Apache 2.0  
+- [SplaTAM](https://github.com/spla-tam/SplaTAM) · BSD 3-Clause  
+- [GO-SLAM](https://github.com/youmi-zym/GO-SLAM) · Apache 2.0  
+- [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) · GPL v3
 
+---
 
-   
+## 📄 License
+
+This project is licensed under the [Apache License 2.0](./LICENSE).
 
