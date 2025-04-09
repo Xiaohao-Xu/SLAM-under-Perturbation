@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/pdf/2406.16850"><strong>📄 Preprint</strong></a> |
+  <a href="https://arxiv.org/pdf/2501.14319"><strong>📄 Preprint</strong></a> |
   <a href="https://youtu.be/jNM94naSPXA"><strong>🎥 Video Demo</strong></a>
 </p>
 
