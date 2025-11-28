@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "coslam.py", line 23, in <module>
+    from utils import coordinates, extract_mesh, colormap_image
+  File "/home/huanglab/dl-slam/Co-SLAM/utils.py", line 6, in <module>
+    from matplotlib import pyplot as plt
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/site-packages/matplotlib/pyplot.py", line 57, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/site-packages/matplotlib/figure.py", line 25, in <module>
+    from matplotlib import _blocking_input, docstring, projections
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/site-packages/matplotlib/projections/__init__.py", line 57, in <module>
+    from .polar import PolarAxes
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/site-packages/matplotlib/projections/polar.py", line 260, in <module>
+    class ThetaTick(maxis.XTick):
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/site-packages/matplotlib/artist.py", line 120, in __init_subclass__
+    cls._update_set_signature_and_docstring()
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/site-packages/matplotlib/artist.py", line 141, in _update_set_signature_and_docstring
+    for prop in ArtistInspector(cls).get_setters()
+  File "/home/huanglab/anaconda3/envs/coslam/lib/python3.7/inspect.py", line 2764, in __init__
+    for idx, param in enumerate(parameters):
+KeyboardInterrupt

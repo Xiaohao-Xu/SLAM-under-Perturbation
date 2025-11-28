@@ -1,0 +1,9 @@
+setup.py
+NumpyMarchingCubes.egg-info/PKG-INFO
+NumpyMarchingCubes.egg-info/SOURCES.txt
+NumpyMarchingCubes.egg-info/dependency_links.txt
+NumpyMarchingCubes.egg-info/top_level.txt
+marching_cubes/__init__.py
+marching_cubes/src/_mcubes.cpp
+marching_cubes/src/marching_cubes.cpp
+marching_cubes/src/pywrapper.cpp

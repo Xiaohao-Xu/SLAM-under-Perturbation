@@ -1,0 +1,8 @@
+inherit_from: configs/EuRoC/euroc.yaml
+mode: stereo
+only_tracking: False
+mapping:
+  bound: [[-10, 10], [-10, 10], [-10, 20]]
+data:
+  input_folder: /home/yongqich/research/data/EuRoC/V2_02_medium
+  output: /home/yongqich/research/GO-SLAM/output/euroc/V2_02_medium
