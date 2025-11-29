@@ -1,4 +1,4 @@
-name: splatam
+name: corrgs
 channels:
   - nvidia/label/cuda-11.6.0
   - pytorch
